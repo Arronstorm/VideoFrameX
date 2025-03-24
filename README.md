@@ -22,7 +22,7 @@ This Python script allows you to extract screenshots from a video at specified t
 
 ### Basic Usage
 ```bash
-python screenshot_extractor.py path/to/video.mp4
+python VideoFrameX.py path/to/video.mp4
 ```
 
 This will:
@@ -32,7 +32,7 @@ This will:
 
 ### Advanced Usage
 ```bash
-python screenshot_extractor.py path/to/video.mp4 custom_folder 10
+python VideoFrameX.py path/to/video.mp4 custom_folder 10
 ```
 
 Parameters:
@@ -44,8 +44,8 @@ Parameters:
 
 ```bash
 # Extract screenshots from a movie trailer
-python screenshot_extractor.py trailer.mp4 movie_shots 3
+python VideoFrameX.py trailer.mp4 movie_shots 3
 
 # Extract screenshots from a lecture video
-python screenshot_extractor.py lecture.mp4 lecture_frames 15
+python VideoFrameX.py lecture.mp4 lecture_frames 15
 ```
