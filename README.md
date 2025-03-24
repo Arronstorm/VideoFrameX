@@ -40,13 +40,6 @@ Parameters:
 2. Output folder name (optional, default: "screenshots")
 3. Interval between screenshots in seconds (optional, default: 5)
 
-## Features
-
-- Automatic output folder creation
-- Configurable screenshot interval
-- Error handling for video file and FFmpeg
-- Verbose console output
-
 ## Example
 
 ```bash
@@ -56,17 +49,3 @@ python screenshot_extractor.py trailer.mp4 movie_shots 3
 # Extract screenshots from a lecture video
 python screenshot_extractor.py lecture.mp4 lecture_frames 15
 ```
-
-## Troubleshooting
-
-- Ensure FFmpeg is correctly installed and accessible in system PATH
-- Verify video file exists and is not corrupted
-- Check write permissions for the output folder
-
-## License
-
-[Choose an appropriate license, e.g., MIT, Apache 2.0]
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
